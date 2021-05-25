@@ -1,0 +1,18 @@
+.carousel-slide {
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    overflow: hidden;
+}
+.carousel-slide__overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.carousel-slide-overlay__content {
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
+.carousel-slide__description {
+    margin-top: 1rem;
+}

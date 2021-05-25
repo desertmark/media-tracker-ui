@@ -1,12 +1,21 @@
+import 'reflect-metadata';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './app/App';
 import reportWebVitals from './reportWebVitals';
-
+import AppProvider from './app/app.context';
+import LoginProvider from './app/login/login.context';
+import { DIProvider } from './app/di.context';
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <DIProvider>
+      <AppProvider>
+        <LoginProvider>
+          <App />
+        </LoginProvider>
+      </AppProvider>
+    </DIProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

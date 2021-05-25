@@ -1,0 +1,9 @@
+export const mdbConfig = 'mdbConfig';
+export const mdbConfigurationApi = 'mdbConfigurationApi';
+export const mdbTrendingApi = 'mdbTrendingApi';
+export const mdbMoviesApi = 'mdbMoviesApi';
+export const mdbTvApi = 'mdbTvApi';
+export const firebaseConfig = 'firebaseConfig';
+export const firebaseUIConfig = 'firebaseUIConfig';
+export const firebaseInitApi = 'firebaseInitApi';
+export const firebaseAuthApi = 'firebaseAuthApi';

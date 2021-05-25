@@ -1,0 +1,6 @@
+.sidebar__content {
+    width: 25vw;
+    max-width: 350px;
+    min-width: 250px;
+    flex: 1 1 auto;
+}

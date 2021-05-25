@@ -1,0 +1,10 @@
+.app-bar-button {
+    color: inherit;
+    font-size: inherit;
+    display: inline-flex;
+}
+
+.app-bar-button button {
+    color: inherit;
+    font-size: inherit;
+}

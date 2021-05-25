@@ -1,0 +1,5 @@
+.gallery {
+    display: grid;
+    gap: 1rem;
+    justify-content: space-between;
+}
